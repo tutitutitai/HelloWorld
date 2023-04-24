@@ -21,7 +21,7 @@ final class ViewController: UIViewController {
         redLight.layer.cornerRadius = redLight.frame.height / 2
         yellowLight.layer.cornerRadius = yellowLight.frame.height / 2
         greenLight.layer.cornerRadius = greenLight.frame.height / 2
-        
+        nextButton.layer.cornerRadius = 10
         updateTrafficLight()
     }
     
