@@ -21,7 +21,7 @@
                                 <color key="backgroundColor" systemColor="systemGrayColor"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="START">
-                                    <fontDescription key="titleFontDescription" type="system" weight="semibold" pointSize="31"/>
+                                    <fontDescription key="titleFontDescription" type="system" weight="semibold" pointSize="20"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="nextButtonTapped" destination="BYZ-38-t0r" eventType="touchUpInside" id="Jm7-La-vyK"/>
@@ -45,7 +45,11 @@
                                 </subviews>
                                 <constraints>
                                     <constraint firstItem="WdM-HX-7FL" firstAttribute="centerY" secondItem="lSt-tL-xqA" secondAttribute="centerY" id="7LL-4B-3ib"/>
+                                    <constraint firstItem="D1s-Yz-gLq" firstAttribute="width" secondItem="WdM-HX-7FL" secondAttribute="width" id="LGI-dt-3Ci"/>
                                     <constraint firstItem="WdM-HX-7FL" firstAttribute="top" secondItem="lSt-tL-xqA" secondAttribute="top" constant="173" id="Q34-5x-l3v"/>
+                                    <constraint firstItem="WdM-HX-7FL" firstAttribute="height" secondItem="LEm-T8-gbB" secondAttribute="height" id="erw-Jh-kik"/>
+                                    <constraint firstItem="WdM-HX-7FL" firstAttribute="width" secondItem="LEm-T8-gbB" secondAttribute="width" id="lM4-dY-tAc"/>
+                                    <constraint firstItem="D1s-Yz-gLq" firstAttribute="height" secondItem="WdM-HX-7FL" secondAttribute="height" id="toW-M7-qL8"/>
                                 </constraints>
                             </stackView>
                         </subviews>
@@ -58,9 +62,11 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="HwO-r4-iH3" secondAttribute="bottom" constant="56" id="DcG-YT-Adk"/>
                             <constraint firstItem="HwO-r4-iH3" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="112" id="NmA-Yd-a4e"/>
                             <constraint firstAttribute="width" secondItem="LEm-T8-gbB" secondAttribute="width" multiplier="3.275" id="Pby-rU-1jt"/>
+                            <constraint firstAttribute="height" secondItem="HwO-r4-iH3" secondAttribute="height" multiplier="16.7059" id="TLw-Mj-Bft"/>
                             <constraint firstItem="lSt-tL-xqA" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="78" id="f84-Pp-qgu"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="HwO-r4-iH3" secondAttribute="bottom" constant="56" id="hAd-3Q-uij"/>
                             <constraint firstItem="lSt-tL-xqA" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="136" id="jW5-7O-Uza"/>
+                            <constraint firstAttribute="width" secondItem="HwO-r4-iH3" secondAttribute="width" multiplier="2.33929" id="lse-wG-fxX"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="HwO-r4-iH3" secondAttribute="trailing" constant="113" id="maC-pS-ept"/>
                             <constraint firstItem="HwO-r4-iH3" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="112" id="pdn-Hu-bv1"/>
                             <constraint firstItem="HwO-r4-iH3" firstAttribute="top" secondItem="lSt-tL-xqA" secondAttribute="bottom" constant="108" id="qxV-ev-qLU"/>
